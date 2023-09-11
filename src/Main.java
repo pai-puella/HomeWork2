@@ -77,6 +77,18 @@ public class Main {
         System.out.println("Разница между массами бойцов (вычитание): " + weightDifference1 + " кг");
         System.out.println("Разница между массами бойцов (остаток от деления): " + weightDifference2 + " кг");
 
+        System.out.println();
+        System.out.println("Задача 8");
 
-        }
+        var totalHours = 640;
+        var hoursPerEmployee = 8;
+
+        var totalEmployees = totalHours / hoursPerEmployee;
+        System.out.println("Всего работников в компании " + totalEmployees + " человек");
+
+        var addedEmployees = 94;
+        var hoursForAddedEmployees = (totalEmployees + addedEmployees) * hoursPerEmployee;
+        System.out.println("Если в компании работает " + (totalEmployees + addedEmployees) + " человек, то всего " + hoursForAddedEmployees + " часов работы может быть поделено между сотрудниками");
+
+    }
     }
