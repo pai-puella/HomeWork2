@@ -45,5 +45,17 @@ public class Main {
         friend /= 7;
         System.out.println("Разделим на 7: " + friend);
 
+        System.out.println();
+        System.out.println("Задача 5");
+
+        var frog = 3.5;
+        System.out.println("Значение переменной frog: " + frog);
+        frog *= 10;
+        System.out.println("Умножим на 10: " + frog);
+        frog /= 3.5;
+        System.out.println("Разделим на 3.5: " + frog);
+        frog += 4;
+        System.out.println("Прибавим 4: " + frog);
+
         }
     }
