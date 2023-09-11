@@ -64,10 +64,10 @@ public class Main {
         var weightOfBoxer2 = 82.7;
 
         var totalWeight = weightOfBoxer1 + weightOfBoxer2;
-        System.out.println("Общая масса двух бойцов: " + totalWeight + "кг");
+        System.out.println("Общая масса двух бойцов: " + totalWeight + " кг");
 
         var weightDifference = Math.abs(weightOfBoxer1 - weightOfBoxer2);
-        System.out.println("Разница между массами бойцов: " + weightDifference + "кг");
+        System.out.println("Разница между массами бойцов: " + weightDifference + " кг");
 
         System.out.println();
         System.out.println("Задача 7");
