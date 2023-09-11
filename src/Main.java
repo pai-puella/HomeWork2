@@ -34,5 +34,16 @@ public class Main {
         System.out.println("Значение переменной dog после уменьшения: " + dog);
         System.out.println("Значение переменной cat после уменьшения: " + cat);
         System.out.println("Значение переменной paper после уменьшения: " + paper);
+
+        System.out.println();
+        System.out.println("Задача 4");
+
+        var friend = 19;
+        System.out.println("Значение переменной friend: " + friend);
+        friend += 2;
+        System.out.println("Прибавим к нему 2: " + friend);
+        friend /= 7;
+        System.out.println("Разделим на 7: " + friend);
+
         }
     }
