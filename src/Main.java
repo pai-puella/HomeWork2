@@ -60,14 +60,19 @@ public class Main {
         System.out.println();
         System.out.println("Задача 6");
 
-        var boxer1 = 78.2;
-        var boxer2 = 82.7;
+        var weightOfBoxer1 = 78.2;
+        var weightOfBoxer2 = 82.7;
 
-        var totalWeight = boxer1 + boxer2;
-        System.out.println("Общая масса двух бойцов: " + totalWeight);
+        var totalWeight = weightOfBoxer1 + weightOfBoxer2;
+        System.out.println("Общая масса двух бойцов: " + totalWeight + "кг");
 
-        var weightDifference = Math.abs(boxer1 - boxer2);
-        System.out.println("Разница между массами бойцов: " + weightDifference);
+        var weightDifference = Math.abs(weightOfBoxer1 - weightOfBoxer2);
+        System.out.println("Разница между массами бойцов: " + weightDifference + "кг");
+
+        System.out.println();
+        System.out.println("Задача 7");
+
+
 
         }
     }
