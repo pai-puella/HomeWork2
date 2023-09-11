@@ -72,6 +72,10 @@ public class Main {
         System.out.println();
         System.out.println("Задача 7");
 
+        var weightDifference1 = weightOfBoxer2 - weightOfBoxer1;
+        var weightDifference2 = Math.abs(weightOfBoxer2 % weightOfBoxer1);
+        System.out.println("Разница между массами бойцов (вычитание): " + weightDifference1 + " кг");
+        System.out.println("Разница между массами бойцов (остаток от деления): " + weightDifference2 + " кг");
 
 
         }
